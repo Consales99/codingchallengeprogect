@@ -1,0 +1,89 @@
+body{
+    background-image: url(background.jpg);
+    margin: 0;
+    width: 1000px;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0;
+    position: relative;
+    background-size: contain;
+    background-attachment: fixed;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.box{
+   background-color: rgb(0,0,0);
+   background-color: rgba(0,0,0,0.5);
+   position: absolute;
+   border-radius: 15px;
+   padding-left: 25px;
+   padding-right: 25px;
+   text-align: center;
+   width: 700px;
+   height: 550px;
+   top: 50%;
+   left: 50%;
+   margin: -350px 0px 0px -200px;
+   font-size: 14px;
+}
+
+.logo{
+  height: 70px;
+  margin-top: 6%;
+}
+
+.textlogo{
+  font-size: 25px;
+  color: #1fd708;
+  text-align: center;
+  font-weight: 700;
+}
+
+.barra{
+  padding-left: 27%;
+  padding-right: 27%;
+  background-color: #1fd708;
+  border: 10px solid #1fd708;
+  margin: 10px;
+}
+
+.bottone{
+  width: auto;
+  height: auto;
+  font-size: 10px;
+}
+
+main{
+  color: white;
+  text-align: left;
+  margin-left: 20px;
+  line-height: 3px;
+}
+
+p.freccia:before{
+  content: "\21A6";
+  color: white;
+}
+
+#orange{
+  background-color: #f5b453;
+  border-radius: 5px;
+  width: 35%;
+  height: 25px;
+}
+
+#green{
+  background-color: #32cd32;
+  border-radius: 5px;
+  width: 60%;
+  height: 25px;
+}
+
+#red{
+  background-color: #b22222;
+  border-radius: 5px;
+  width: 15%;
+  height: 25px;
+}
